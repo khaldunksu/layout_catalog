@@ -1,0 +1,191 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); }
+  .header__moyo {
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 10px; }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 50px; }
+  .menu__list {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 60px;
+    margin-left: 20px;
+    text-transform: uppercase; }
+  .menu__list:hover {
+    color: #00acdc; }
+
+.is-active {
+  margin-left: 0;
+  color: #00acdc;
+  position: relative; }
+
+.is-active::after {
+  position: absolute;
+  content: "";
+  width: 37px;
+  height: 4px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #00acdc;
+  border-radius: 2px; }
+
+.main {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 1024px; }
+
+.card {
+  margin-bottom: 50px;
+  width: 200px;
+  height: 403px;
+  background: white;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px 14px 14px; }
+  .card__photo {
+    width: 160px;
+    height: 134px;
+    margin-right: 20px;
+    margin-left: 5px; }
+  .card__title {
+    line-height: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 45px; }
+  .card__cod {
+    margin-top: 5px;
+    font-size: 11px;
+    line-height: 13px; }
+  .card__numb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 20px; }
+  .card__feedback {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 15px; }
+  .card__revie {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px; }
+  .card__price-numb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .card__price {
+    margin-top: 25px;
+    font-size: 11px;
+    line-height: 13px; }
+  .card__buy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 170px;
+    height: 40px;
+    background: #00acdc;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-top: 20px; }
+  .card__buy:hover {
+    background-color: #fff;
+    border: 1px solid #00acdc;
+    color: #00acdc; }
+
+.stars {
+  width: 91px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .stars__star:nth-child(-n+4) {
+    background: url("../images/star-active.svg") no-repeat;
+    width: 15px;
+    height: 15px; }
+  .stars__star:last-child {
+    background: url("../images/star.svg") no-repeat;
+    width: 15px;
+    height: 15px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-style: normal; }
+
+a {
+  text-decoration: none; }
+
+/*# sourceMappingURL=main.css.map */
