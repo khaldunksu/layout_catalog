@@ -46,7 +46,6 @@
   .is-active::after {
     position: absolute;
     content: "";
-    width: 37px;
     height: 4px;
     left: 0;
     right: 0;
@@ -94,14 +93,13 @@
   .card__photo {
     width: 160px;
     height: 134px;
-    margin-right: 20px;
-    margin-left: 5px; }
+    margin: 0 auto; }
   .card__title {
     line-height: 15px;
     font-weight: 500;
     font-size: 12px;
     margin-top: 45px; }
-  .card__cod {
+  .card__code {
     margin-top: 5px;
     font-size: 11px;
     line-height: 13px; }
@@ -124,7 +122,7 @@
         -ms-flex-align: center;
             align-items: center;
     margin-top: 15px; }
-  .card__revie {
+  .card__review {
     font-weight: normal;
     font-size: 11px;
     line-height: 13px; }
@@ -160,9 +158,9 @@
     font-size: 14px;
     line-height: 40px;
     text-transform: uppercase;
-    margin-top: 20px; }
+    margin-top: 20px;
+    border: 1px solid #00acdc; }
     .card__buy:hover {
-      border: 1px solid #00acdc;
       background-color: #fff;
       color: #00acdc; }
 
